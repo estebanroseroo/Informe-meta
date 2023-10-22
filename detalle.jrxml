@@ -1,0 +1,1257 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Jaspersoft Studio version 6.20.5.final using JasperReports Library version 6.20.5-3efcf2e67f959db3888d79f73dde2dbd7acb4f8e  -->
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="detalle" pageWidth="580" pageHeight="842" columnWidth="540" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20" uuid="cd74ed00-15d9-40b5-adfe-323c41b3537d">
+	<property name="com.jaspersoft.studio.data.sql.tables" value=""/>
+	<property name="com.jaspersoft.studio.data.defaultdataadapter" value="base 88"/>
+	<property name="ireport.jasperserver.url" value="http://192.168.5.88:53252/jasperserver/"/>
+	<property name="ireport.jasperserver.user" value="jasperadmin"/>
+	<property name="ireport.jasperserver.report.resource" value="/reportes/seguimiento_planificacion/informe_planes/seg_pla_informe_pnd_files/seg_pla_informe_pnd_detalle.jrxml"/>
+	<property name="ireport.jasperserver.reportUnit" value="/reportes/seguimiento_planificacion/informe_planes/seg_pla_informe_pnd"/>
+	<style name="Table_TH" mode="Opaque" backcolor="#F0F8FF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+			<topPen lineWidth="0.5" lineColor="#000000"/>
+			<leftPen lineWidth="0.5" lineColor="#000000"/>
+			<bottomPen lineWidth="0.5" lineColor="#000000"/>
+			<rightPen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="Table_CH" mode="Opaque" backcolor="#BFE1FF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+			<topPen lineWidth="0.5" lineColor="#000000"/>
+			<leftPen lineWidth="0.5" lineColor="#000000"/>
+			<bottomPen lineWidth="0.5" lineColor="#000000"/>
+			<rightPen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="Table_TD" mode="Opaque" backcolor="#FFFFFF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+			<topPen lineWidth="0.5" lineColor="#000000"/>
+			<leftPen lineWidth="0.5" lineColor="#000000"/>
+			<bottomPen lineWidth="0.5" lineColor="#000000"/>
+			<rightPen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="Table 1_TH" mode="Opaque" backcolor="#F0F8FF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+			<topPen lineWidth="0.5" lineColor="#000000"/>
+			<leftPen lineWidth="0.5" lineColor="#000000"/>
+			<bottomPen lineWidth="0.5" lineColor="#000000"/>
+			<rightPen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="Table 1_CH" mode="Opaque" backcolor="#BFE1FF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+			<topPen lineWidth="0.5" lineColor="#000000"/>
+			<leftPen lineWidth="0.5" lineColor="#000000"/>
+			<bottomPen lineWidth="0.5" lineColor="#000000"/>
+			<rightPen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="Table 1_TD" mode="Opaque" backcolor="#FFFFFF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+			<topPen lineWidth="0.5" lineColor="#000000"/>
+			<leftPen lineWidth="0.5" lineColor="#000000"/>
+			<bottomPen lineWidth="0.5" lineColor="#000000"/>
+			<rightPen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="Table 2_TH" mode="Opaque" backcolor="#F0F8FF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+			<topPen lineWidth="0.5" lineColor="#000000"/>
+			<leftPen lineWidth="0.5" lineColor="#000000"/>
+			<bottomPen lineWidth="0.5" lineColor="#000000"/>
+			<rightPen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="Table 2_CH" mode="Opaque" backcolor="#BFE1FF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+			<topPen lineWidth="0.5" lineColor="#000000"/>
+			<leftPen lineWidth="0.5" lineColor="#000000"/>
+			<bottomPen lineWidth="0.5" lineColor="#000000"/>
+			<rightPen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="Table 2_TD" mode="Opaque" backcolor="#FFFFFF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+			<topPen lineWidth="0.5" lineColor="#000000"/>
+			<leftPen lineWidth="0.5" lineColor="#000000"/>
+			<bottomPen lineWidth="0.5" lineColor="#000000"/>
+			<rightPen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="Table 3_TH" mode="Opaque" backcolor="#F0F8FF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+			<topPen lineWidth="0.5" lineColor="#000000"/>
+			<leftPen lineWidth="0.5" lineColor="#000000"/>
+			<bottomPen lineWidth="0.5" lineColor="#000000"/>
+			<rightPen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="Table 3_CH" mode="Opaque" backcolor="#BFE1FF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+			<topPen lineWidth="0.5" lineColor="#000000"/>
+			<leftPen lineWidth="0.5" lineColor="#000000"/>
+			<bottomPen lineWidth="0.5" lineColor="#000000"/>
+			<rightPen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="Table 3_TD" mode="Opaque" backcolor="#FFFFFF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+			<topPen lineWidth="0.5" lineColor="#000000"/>
+			<leftPen lineWidth="0.5" lineColor="#000000"/>
+			<bottomPen lineWidth="0.5" lineColor="#000000"/>
+			<rightPen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<subDataset name="ds_obra" uuid="43db021b-82a7-4eee-bebb-1cc3feb324f7">
+		<property name="com.jaspersoft.studio.data.sql.tables" value=""/>
+		<property name="com.jaspersoft.studio.data.defaultdataadapter" value="SIPeIP"/>
+		<parameter name="META_CODIGO" class="java.lang.Integer"/>
+		<parameter name="ENTIDAD_CODIGO" class="java.lang.Long"/>
+		<queryString language="SQL">
+			<![CDATA[SELECT *
+FROM seguimiento_obras.vw_obra_porcentaje vop
+WHERE 
+vop.codigoproyecto in (select pap.pry_codigo  from inversion.proyecto_alineacion_pnd pap 
+inner join inversion.proyecto p on p.pry_codigo = pap.pry_codigo 
+where pap.pndm_codigo = $P{META_CODIGO}   and pap.pap_activo = true)
+and vop.codigoresponsable in (select
+        entidad0_.ent_codigo as codigoEntidad
+    from
+        admin.entidad entidad0_ 
+    where
+        entidad0_.ent_codigo in (
+            select
+                proyecto2_.ent_codigo 
+            from
+                inversion.proyecto_alineacion_pnd proyectoal1_ cross 
+            join
+                inversion.proyecto proyecto2_ cross 
+            join
+                admin.entidad entidad3_ 
+            where
+                proyectoal1_.pry_codigo=proyecto2_.pry_codigo 
+                and proyecto2_.ent_codigo=entidad3_.ent_codigo 
+                and proyectoal1_.pndm_codigo= $P{META_CODIGO} 
+        ) 
+        or entidad0_.ent_codigo=(
+            select
+                pndmeta4_.entd_responsable 
+            from
+                planificacion.pnd_meta pndmeta4_ cross 
+            join
+                admin.entidad entidad5_ 
+            where
+                (
+                    pndmeta4_.pndm_activo = true
+                ) 
+                and pndmeta4_.entd_responsable=entidad5_.ent_codigo 
+                and pndmeta4_.pndm_codigo= $P{META_CODIGO} 
+        ) ) 
+        and vop.codigoresponsable = $P{ENTIDAD_CODIGO} 
+        order by vop.codigoresponsable]]>
+		</queryString>
+		<field name="id" class="java.lang.Long">
+			<property name="com.jaspersoft.studio.field.name" value="id"/>
+			<property name="com.jaspersoft.studio.field.label" value="id"/>
+			<property name="com.jaspersoft.studio.field.tree.path" value="vw_obra_porcentaje"/>
+		</field>
+		<field name="responsable" class="java.lang.String">
+			<property name="com.jaspersoft.studio.field.name" value="responsable"/>
+			<property name="com.jaspersoft.studio.field.label" value="responsable"/>
+			<property name="com.jaspersoft.studio.field.tree.path" value="vw_obra_porcentaje"/>
+		</field>
+		<field name="codigoejecutora" class="java.lang.Long">
+			<property name="com.jaspersoft.studio.field.name" value="codigoejecutora"/>
+			<property name="com.jaspersoft.studio.field.label" value="codigoejecutora"/>
+			<property name="com.jaspersoft.studio.field.tree.path" value="vw_obra_porcentaje"/>
+		</field>
+		<field name="codigoresponsable" class="java.lang.Long">
+			<property name="com.jaspersoft.studio.field.name" value="codigoresponsable"/>
+			<property name="com.jaspersoft.studio.field.label" value="codigoresponsable"/>
+			<property name="com.jaspersoft.studio.field.tree.path" value="vw_obra_porcentaje"/>
+		</field>
+		<field name="ejecutora" class="java.lang.String">
+			<property name="com.jaspersoft.studio.field.name" value="ejecutora"/>
+			<property name="com.jaspersoft.studio.field.label" value="ejecutora"/>
+			<property name="com.jaspersoft.studio.field.tree.path" value="vw_obra_porcentaje"/>
+		</field>
+		<field name="nombre" class="java.lang.String">
+			<property name="com.jaspersoft.studio.field.name" value="nombre"/>
+			<property name="com.jaspersoft.studio.field.label" value="nombre"/>
+			<property name="com.jaspersoft.studio.field.tree.path" value="vw_obra_porcentaje"/>
+		</field>
+		<field name="codigoproyecto" class="java.lang.Long">
+			<property name="com.jaspersoft.studio.field.name" value="codigoproyecto"/>
+			<property name="com.jaspersoft.studio.field.label" value="codigoproyecto"/>
+			<property name="com.jaspersoft.studio.field.tree.path" value="vw_obra_porcentaje"/>
+		</field>
+		<field name="montototal" class="java.math.BigDecimal">
+			<property name="com.jaspersoft.studio.field.name" value="montototal"/>
+			<property name="com.jaspersoft.studio.field.label" value="montototal"/>
+			<property name="com.jaspersoft.studio.field.tree.path" value="vw_obra_porcentaje"/>
+		</field>
+		<field name="porcentaje" class="java.math.BigDecimal">
+			<property name="com.jaspersoft.studio.field.name" value="porcentaje"/>
+			<property name="com.jaspersoft.studio.field.label" value="porcentaje"/>
+			<property name="com.jaspersoft.studio.field.tree.path" value="vw_obra_porcentaje"/>
+		</field>
+		<field name="estado" class="java.lang.String">
+			<property name="com.jaspersoft.studio.field.name" value="estado"/>
+			<property name="com.jaspersoft.studio.field.label" value="estado"/>
+			<property name="com.jaspersoft.studio.field.tree.path" value="vw_obra_porcentaje"/>
+		</field>
+	</subDataset>
+	<subDataset name="ds_proyecto" uuid="c5ceb832-cf32-4b98-844f-cd1fc822845a">
+		<property name="com.jaspersoft.studio.data.sql.tables" value=""/>
+		<property name="com.jaspersoft.studio.data.defaultdataadapter" value="SIPeIP"/>
+		<parameter name="ANIO" class="java.lang.Integer"/>
+		<parameter name="META_CODIGO" class="java.lang.Integer"/>
+		<parameter name="ENTIDAD_CODIGO" class="java.lang.Long"/>
+		<queryString language="SQL">
+			<![CDATA[select vp.*,  
+(select COALESCE(SUM(r.codificado_anual), 0) from interoperabilidad."replica" r where vp.cup = r.cup and 
+  r.fecha_corte  = (SELECT MAX(r.fecha_corte) FROM interoperabilidad."replica" r  WHERE r.ejercicio = $P{ANIO}   ))  as codificado, 
+  (select COALESCE(SUM(r.devengado_anual), 0) from interoperabilidad."replica" r where vp.cup = r.cup and 
+  r.fecha_corte  = (SELECT MAX(r.fecha_corte) FROM interoperabilidad."replica" r  WHERE r.ejercicio =  $P{ANIO}  ))  as devengado
+  from inversion.vw_proyecto vp 
+where vp.id in ( select pap.pry_codigo  from inversion.proyecto_alineacion_pnd pap 
+inner join inversion.proyecto p on p.pry_codigo = pap.pry_codigo 
+where pap.pndm_codigo = $P{META_CODIGO}  and pap.pap_activo = true 
+and p.ent_codigo in (select
+        entidad0_.ent_codigo as codigoEntidad
+    from
+        admin.entidad entidad0_ 
+    where
+        entidad0_.ent_codigo in (
+            select
+                proyecto2_.ent_codigo 
+            from
+                inversion.proyecto_alineacion_pnd proyectoal1_ cross 
+            join
+                inversion.proyecto proyecto2_ cross 
+            join
+                admin.entidad entidad3_ 
+            where
+                proyectoal1_.pry_codigo=proyecto2_.pry_codigo 
+                and proyecto2_.ent_codigo=entidad3_.ent_codigo 
+                and proyectoal1_.pndm_codigo= $P{META_CODIGO} 
+        ) 
+        or entidad0_.ent_codigo=(
+            select
+                pndmeta4_.entd_responsable 
+            from
+                planificacion.pnd_meta pndmeta4_ cross 
+            join
+                admin.entidad entidad5_ 
+            where
+                (
+                    pndmeta4_.pndm_activo = true
+                ) 
+                and pndmeta4_.entd_responsable=entidad5_.ent_codigo 
+                and pndmeta4_.pndm_codigo= $P{META_CODIGO} 
+        )  ) group by pap.pry_codigo)
+        and vp.entidad_codigo = $P{ENTIDAD_CODIGO} 
+ order by vp.entidad_codigo]]>
+		</queryString>
+		<field name="id" class="java.lang.Long">
+			<property name="com.jaspersoft.studio.field.name" value="id"/>
+			<property name="com.jaspersoft.studio.field.label" value="id"/>
+			<property name="com.jaspersoft.studio.field.tree.path" value="vw_proyecto"/>
+		</field>
+		<field name="nombre" class="java.lang.String">
+			<property name="com.jaspersoft.studio.field.name" value="nombre"/>
+			<property name="com.jaspersoft.studio.field.label" value="nombre"/>
+			<property name="com.jaspersoft.studio.field.tree.path" value="vw_proyecto"/>
+		</field>
+		<field name="cup" class="java.lang.String">
+			<property name="com.jaspersoft.studio.field.name" value="cup"/>
+			<property name="com.jaspersoft.studio.field.label" value="cup"/>
+			<property name="com.jaspersoft.studio.field.tree.path" value="vw_proyecto"/>
+		</field>
+		<field name="entidad" class="java.lang.String">
+			<property name="com.jaspersoft.studio.field.name" value="entidad"/>
+			<property name="com.jaspersoft.studio.field.label" value="entidad"/>
+			<property name="com.jaspersoft.studio.field.tree.path" value="vw_proyecto"/>
+		</field>
+		<field name="entidad_codigo" class="java.lang.Long">
+			<property name="com.jaspersoft.studio.field.name" value="entidad_codigo"/>
+			<property name="com.jaspersoft.studio.field.label" value="entidad_codigo"/>
+			<property name="com.jaspersoft.studio.field.tree.path" value="vw_proyecto"/>
+		</field>
+		<field name="entidad_rector" class="java.lang.String">
+			<property name="com.jaspersoft.studio.field.name" value="entidad_rector"/>
+			<property name="com.jaspersoft.studio.field.label" value="entidad_rector"/>
+			<property name="com.jaspersoft.studio.field.tree.path" value="vw_proyecto"/>
+		</field>
+		<field name="entidad_rector_codigo" class="java.lang.Long">
+			<property name="com.jaspersoft.studio.field.name" value="entidad_rector_codigo"/>
+			<property name="com.jaspersoft.studio.field.label" value="entidad_rector_codigo"/>
+			<property name="com.jaspersoft.studio.field.tree.path" value="vw_proyecto"/>
+		</field>
+		<field name="cargo_responsable" class="java.lang.String">
+			<property name="com.jaspersoft.studio.field.name" value="cargo_responsable"/>
+			<property name="com.jaspersoft.studio.field.label" value="cargo_responsable"/>
+			<property name="com.jaspersoft.studio.field.tree.path" value="vw_proyecto"/>
+		</field>
+		<field name="codigo_usuario_ultmodificacion" class="java.lang.Long">
+			<property name="com.jaspersoft.studio.field.name" value="codigo_usuario_ultmodificacion"/>
+			<property name="com.jaspersoft.studio.field.label" value="codigo_usuario_ultmodificacion"/>
+			<property name="com.jaspersoft.studio.field.tree.path" value="vw_proyecto"/>
+		</field>
+		<field name="email_adicional_responsable" class="java.lang.String">
+			<property name="com.jaspersoft.studio.field.name" value="email_adicional_responsable"/>
+			<property name="com.jaspersoft.studio.field.label" value="email_adicional_responsable"/>
+			<property name="com.jaspersoft.studio.field.tree.path" value="vw_proyecto"/>
+		</field>
+		<field name="email_responsable" class="java.lang.String">
+			<property name="com.jaspersoft.studio.field.name" value="email_responsable"/>
+			<property name="com.jaspersoft.studio.field.label" value="email_responsable"/>
+			<property name="com.jaspersoft.studio.field.tree.path" value="vw_proyecto"/>
+		</field>
+		<field name="entidad_participante" class="java.lang.Boolean">
+			<property name="com.jaspersoft.studio.field.name" value="entidad_participante"/>
+			<property name="com.jaspersoft.studio.field.label" value="entidad_participante"/>
+			<property name="com.jaspersoft.studio.field.tree.path" value="vw_proyecto"/>
+		</field>
+		<field name="fecha_inicio" class="java.sql.Timestamp">
+			<property name="com.jaspersoft.studio.field.name" value="fecha_inicio"/>
+			<property name="com.jaspersoft.studio.field.label" value="fecha_inicio"/>
+			<property name="com.jaspersoft.studio.field.tree.path" value="vw_proyecto"/>
+		</field>
+		<field name="fecha_ultmodificacion" class="java.sql.Timestamp">
+			<property name="com.jaspersoft.studio.field.name" value="fecha_ultmodificacion"/>
+			<property name="com.jaspersoft.studio.field.label" value="fecha_ultmodificacion"/>
+			<property name="com.jaspersoft.studio.field.tree.path" value="vw_proyecto"/>
+		</field>
+		<field name="gerente_gerencia" class="java.lang.Boolean">
+			<property name="com.jaspersoft.studio.field.name" value="gerente_gerencia"/>
+			<property name="com.jaspersoft.studio.field.label" value="gerente_gerencia"/>
+			<property name="com.jaspersoft.studio.field.tree.path" value="vw_proyecto"/>
+		</field>
+		<field name="infraestructura" class="java.lang.Boolean">
+			<property name="com.jaspersoft.studio.field.name" value="infraestructura"/>
+			<property name="com.jaspersoft.studio.field.label" value="infraestructura"/>
+			<property name="com.jaspersoft.studio.field.tree.path" value="vw_proyecto"/>
+		</field>
+		<field name="producto_detalle" class="java.lang.String">
+			<property name="com.jaspersoft.studio.field.name" value="producto_detalle"/>
+			<property name="com.jaspersoft.studio.field.label" value="producto_detalle"/>
+			<property name="com.jaspersoft.studio.field.tree.path" value="vw_proyecto"/>
+		</field>
+		<field name="cooperacion_binacional" class="java.lang.Boolean">
+			<property name="com.jaspersoft.studio.field.name" value="cooperacion_binacional"/>
+			<property name="com.jaspersoft.studio.field.label" value="cooperacion_binacional"/>
+			<property name="com.jaspersoft.studio.field.tree.path" value="vw_proyecto"/>
+		</field>
+		<field name="emblematico" class="java.lang.Boolean">
+			<property name="com.jaspersoft.studio.field.name" value="emblematico"/>
+			<property name="com.jaspersoft.studio.field.label" value="emblematico"/>
+			<property name="com.jaspersoft.studio.field.tree.path" value="vw_proyecto"/>
+		</field>
+		<field name="responsable" class="java.lang.String">
+			<property name="com.jaspersoft.studio.field.name" value="responsable"/>
+			<property name="com.jaspersoft.studio.field.label" value="responsable"/>
+			<property name="com.jaspersoft.studio.field.tree.path" value="vw_proyecto"/>
+		</field>
+		<field name="telefono_extension" class="java.lang.String">
+			<property name="com.jaspersoft.studio.field.name" value="telefono_extension"/>
+			<property name="com.jaspersoft.studio.field.label" value="telefono_extension"/>
+			<property name="com.jaspersoft.studio.field.tree.path" value="vw_proyecto"/>
+		</field>
+		<field name="telefono_responsable" class="java.lang.String">
+			<property name="com.jaspersoft.studio.field.name" value="telefono_responsable"/>
+			<property name="com.jaspersoft.studio.field.label" value="telefono_responsable"/>
+			<property name="com.jaspersoft.studio.field.tree.path" value="vw_proyecto"/>
+		</field>
+		<field name="fase_inversion" class="java.lang.String">
+			<property name="com.jaspersoft.studio.field.name" value="fase_inversion"/>
+			<property name="com.jaspersoft.studio.field.label" value="fase_inversion"/>
+			<property name="com.jaspersoft.studio.field.tree.path" value="vw_proyecto"/>
+		</field>
+		<field name="cobertura" class="java.lang.String">
+			<property name="com.jaspersoft.studio.field.name" value="cobertura"/>
+			<property name="com.jaspersoft.studio.field.label" value="cobertura"/>
+			<property name="com.jaspersoft.studio.field.tree.path" value="vw_proyecto"/>
+		</field>
+		<field name="estado_situacion_actual" class="java.lang.String">
+			<property name="com.jaspersoft.studio.field.name" value="estado_situacion_actual"/>
+			<property name="com.jaspersoft.studio.field.label" value="estado_situacion_actual"/>
+			<property name="com.jaspersoft.studio.field.tree.path" value="vw_proyecto"/>
+		</field>
+		<field name="gabinete" class="java.lang.String">
+			<property name="com.jaspersoft.studio.field.name" value="gabinete"/>
+			<property name="com.jaspersoft.studio.field.label" value="gabinete"/>
+			<property name="com.jaspersoft.studio.field.tree.path" value="vw_proyecto"/>
+		</field>
+		<field name="lineamiento_inversion" class="java.lang.String">
+			<property name="com.jaspersoft.studio.field.name" value="lineamiento_inversion"/>
+			<property name="com.jaspersoft.studio.field.label" value="lineamiento_inversion"/>
+			<property name="com.jaspersoft.studio.field.tree.path" value="vw_proyecto"/>
+		</field>
+		<field name="modelo_gestion" class="java.lang.String">
+			<property name="com.jaspersoft.studio.field.name" value="modelo_gestion"/>
+			<property name="com.jaspersoft.studio.field.label" value="modelo_gestion"/>
+			<property name="com.jaspersoft.studio.field.tree.path" value="vw_proyecto"/>
+		</field>
+		<field name="producto" class="java.lang.String">
+			<property name="com.jaspersoft.studio.field.name" value="producto"/>
+			<property name="com.jaspersoft.studio.field.label" value="producto"/>
+			<property name="com.jaspersoft.studio.field.tree.path" value="vw_proyecto"/>
+		</field>
+		<field name="sector" class="java.lang.String">
+			<property name="com.jaspersoft.studio.field.name" value="sector"/>
+			<property name="com.jaspersoft.studio.field.label" value="sector"/>
+			<property name="com.jaspersoft.studio.field.tree.path" value="vw_proyecto"/>
+		</field>
+		<field name="subsector" class="java.lang.String">
+			<property name="com.jaspersoft.studio.field.name" value="subsector"/>
+			<property name="com.jaspersoft.studio.field.label" value="subsector"/>
+			<property name="com.jaspersoft.studio.field.tree.path" value="vw_proyecto"/>
+		</field>
+		<field name="inversion" class="java.lang.String">
+			<property name="com.jaspersoft.studio.field.name" value="inversion"/>
+			<property name="com.jaspersoft.studio.field.label" value="inversion"/>
+			<property name="com.jaspersoft.studio.field.tree.path" value="vw_proyecto"/>
+		</field>
+		<field name="etapa_proyecto" class="java.lang.String">
+			<property name="com.jaspersoft.studio.field.name" value="etapa_proyecto"/>
+			<property name="com.jaspersoft.studio.field.label" value="etapa_proyecto"/>
+			<property name="com.jaspersoft.studio.field.tree.path" value="vw_proyecto"/>
+		</field>
+		<field name="etapa_proyecto_codigo" class="java.lang.Integer">
+			<property name="com.jaspersoft.studio.field.name" value="etapa_proyecto_codigo"/>
+			<property name="com.jaspersoft.studio.field.label" value="etapa_proyecto_codigo"/>
+			<property name="com.jaspersoft.studio.field.tree.path" value="vw_proyecto"/>
+		</field>
+		<field name="tipo_estudio" class="java.lang.String">
+			<property name="com.jaspersoft.studio.field.name" value="tipo_estudio"/>
+			<property name="com.jaspersoft.studio.field.label" value="tipo_estudio"/>
+			<property name="com.jaspersoft.studio.field.tree.path" value="vw_proyecto"/>
+		</field>
+		<field name="identificacion_problema" class="java.lang.String">
+			<property name="com.jaspersoft.studio.field.name" value="identificacion_problema"/>
+			<property name="com.jaspersoft.studio.field.label" value="identificacion_problema"/>
+			<property name="com.jaspersoft.studio.field.tree.path" value="vw_proyecto"/>
+		</field>
+		<field name="justificacion" class="java.lang.String">
+			<property name="com.jaspersoft.studio.field.name" value="justificacion"/>
+			<property name="com.jaspersoft.studio.field.label" value="justificacion"/>
+			<property name="com.jaspersoft.studio.field.tree.path" value="vw_proyecto"/>
+		</field>
+		<field name="fecha_inicio_proyecto" class="java.sql.Timestamp">
+			<property name="com.jaspersoft.studio.field.name" value="fecha_inicio_proyecto"/>
+			<property name="com.jaspersoft.studio.field.label" value="fecha_inicio_proyecto"/>
+			<property name="com.jaspersoft.studio.field.tree.path" value="vw_proyecto"/>
+		</field>
+		<field name="fecha_fin_proyecto" class="java.sql.Timestamp">
+			<property name="com.jaspersoft.studio.field.name" value="fecha_fin_proyecto"/>
+			<property name="com.jaspersoft.studio.field.label" value="fecha_fin_proyecto"/>
+			<property name="com.jaspersoft.studio.field.tree.path" value="vw_proyecto"/>
+		</field>
+		<field name="perfil_proveedor" class="java.lang.String">
+			<property name="com.jaspersoft.studio.field.name" value="perfil_proveedor"/>
+			<property name="com.jaspersoft.studio.field.label" value="perfil_proveedor"/>
+			<property name="com.jaspersoft.studio.field.tree.path" value="vw_proyecto"/>
+		</field>
+		<field name="personal_basico_requerido" class="java.lang.String">
+			<property name="com.jaspersoft.studio.field.name" value="personal_basico_requerido"/>
+			<property name="com.jaspersoft.studio.field.label" value="personal_basico_requerido"/>
+			<property name="com.jaspersoft.studio.field.tree.path" value="vw_proyecto"/>
+		</field>
+		<field name="anio_proyecto" class="java.lang.String">
+			<property name="com.jaspersoft.studio.field.name" value="anio_proyecto"/>
+			<property name="com.jaspersoft.studio.field.label" value="anio_proyecto"/>
+			<property name="com.jaspersoft.studio.field.tree.path" value="vw_proyecto"/>
+		</field>
+		<field name="monto_ejecutado" class="java.lang.Integer">
+			<property name="com.jaspersoft.studio.field.name" value="monto_ejecutado"/>
+			<property name="com.jaspersoft.studio.field.label" value="monto_ejecutado"/>
+			<property name="com.jaspersoft.studio.field.tree.path" value="vw_proyecto"/>
+		</field>
+		<field name="monto_total" class="java.math.BigDecimal">
+			<property name="com.jaspersoft.studio.field.name" value="monto_total"/>
+			<property name="com.jaspersoft.studio.field.label" value="monto_total"/>
+			<property name="com.jaspersoft.studio.field.tree.path" value="vw_proyecto"/>
+		</field>
+		<field name="tiene_cup" class="java.lang.Boolean">
+			<property name="com.jaspersoft.studio.field.name" value="tiene_cup"/>
+			<property name="com.jaspersoft.studio.field.label" value="tiene_cup"/>
+			<property name="com.jaspersoft.studio.field.tree.path" value="vw_proyecto"/>
+		</field>
+		<field name="jerarquia_codigo" class="java.lang.Integer">
+			<property name="com.jaspersoft.studio.field.name" value="jerarquia_codigo"/>
+			<property name="com.jaspersoft.studio.field.label" value="jerarquia_codigo"/>
+			<property name="com.jaspersoft.studio.field.tree.path" value="vw_proyecto"/>
+		</field>
+		<field name="jerarquia" class="java.lang.String">
+			<property name="com.jaspersoft.studio.field.name" value="jerarquia"/>
+			<property name="com.jaspersoft.studio.field.label" value="jerarquia"/>
+			<property name="com.jaspersoft.studio.field.tree.path" value="vw_proyecto"/>
+		</field>
+		<field name="tiene_dictame_prioridad" class="java.lang.Boolean">
+			<property name="com.jaspersoft.studio.field.name" value="tiene_dictame_prioridad"/>
+			<property name="com.jaspersoft.studio.field.label" value="tiene_dictame_prioridad"/>
+			<property name="com.jaspersoft.studio.field.tree.path" value="vw_proyecto"/>
+		</field>
+		<field name="tiene_pai" class="java.lang.Boolean">
+			<property name="com.jaspersoft.studio.field.name" value="tiene_pai"/>
+			<property name="com.jaspersoft.studio.field.label" value="tiene_pai"/>
+			<property name="com.jaspersoft.studio.field.tree.path" value="vw_proyecto"/>
+		</field>
+		<field name="maximo_responsable" class="java.lang.String">
+			<property name="com.jaspersoft.studio.field.name" value="maximo_responsable"/>
+			<property name="com.jaspersoft.studio.field.label" value="maximo_responsable"/>
+			<property name="com.jaspersoft.studio.field.tree.path" value="vw_proyecto"/>
+		</field>
+		<field name="email_maximo_responsable" class="java.lang.String">
+			<property name="com.jaspersoft.studio.field.name" value="email_maximo_responsable"/>
+			<property name="com.jaspersoft.studio.field.label" value="email_maximo_responsable"/>
+			<property name="com.jaspersoft.studio.field.tree.path" value="vw_proyecto"/>
+		</field>
+		<field name="codificado" class="java.math.BigDecimal">
+			<property name="com.jaspersoft.studio.field.name" value="codificado"/>
+			<property name="com.jaspersoft.studio.field.label" value="codificado"/>
+		</field>
+		<field name="devengado" class="java.math.BigDecimal">
+			<property name="com.jaspersoft.studio.field.name" value="devengado"/>
+			<property name="com.jaspersoft.studio.field.label" value="devengado"/>
+		</field>
+	</subDataset>
+	<subDataset name="ds_sectorial" uuid="2527296f-e54b-4ed8-9323-910b4ccc5db6">
+		<property name="com.jaspersoft.studio.data.sql.tables" value=""/>
+		<property name="com.jaspersoft.studio.data.defaultdataadapter" value="SIPeIP"/>
+		<parameter name="META_CODIGO" class="java.lang.Integer"/>
+		<parameter name="ENTIDAD_CODIGO" class="java.lang.Long"/>
+		<queryString language="SQL">
+			<![CDATA[select vvps.* , 
+(select e.ent_nombre  from "admin".entidad e where e.ent_codigo = vvps.codigoentidad) as entidad
+from planificacion.vw_visor_plan_sectorial vvps 
+where 
+(vvps.codigoentidad  in (
+            select
+                proyecto2_.ent_codigo 
+            from
+                inversion.proyecto_alineacion_pnd proyectoal1_ cross 
+            join
+                inversion.proyecto proyecto2_ cross 
+            join
+                admin.entidad entidad3_ 
+            where
+                proyectoal1_.pry_codigo=proyecto2_.pry_codigo 
+                and proyecto2_.ent_codigo=entidad3_.ent_codigo 
+                and proyectoal1_.pndm_codigo=  $P{META_CODIGO} 
+        ) 
+        or vvps.codigoentidad =(
+            select
+                pndmeta4_.entd_responsable 
+            from
+                planificacion.pnd_meta pndmeta4_ cross 
+            join
+                admin.entidad entidad5_ 
+            where
+                (
+                    pndmeta4_.pndm_activo = true
+                ) 
+                and pndmeta4_.entd_responsable=entidad5_.ent_codigo 
+                and pndmeta4_.pndm_codigo= $P{META_CODIGO} 
+        ))
+        and vvps.codigoentidad =  $P{ENTIDAD_CODIGO} 
+		order by  codigoentidad]]>
+		</queryString>
+		<field name="codigo" class="java.lang.Long">
+			<property name="com.jaspersoft.studio.field.name" value="codigo"/>
+			<property name="com.jaspersoft.studio.field.label" value="codigo"/>
+			<property name="com.jaspersoft.studio.field.tree.path" value="vw_visor_plan_sectorial"/>
+		</field>
+		<field name="periodo" class="java.lang.Integer">
+			<property name="com.jaspersoft.studio.field.name" value="periodo"/>
+			<property name="com.jaspersoft.studio.field.label" value="periodo"/>
+			<property name="com.jaspersoft.studio.field.tree.path" value="vw_visor_plan_sectorial"/>
+		</field>
+		<field name="objetivo" class="java.lang.String">
+			<property name="com.jaspersoft.studio.field.name" value="objetivo"/>
+			<property name="com.jaspersoft.studio.field.label" value="objetivo"/>
+			<property name="com.jaspersoft.studio.field.tree.path" value="vw_visor_plan_sectorial"/>
+		</field>
+		<field name="indicador" class="java.lang.String">
+			<property name="com.jaspersoft.studio.field.name" value="indicador"/>
+			<property name="com.jaspersoft.studio.field.label" value="indicador"/>
+			<property name="com.jaspersoft.studio.field.tree.path" value="vw_visor_plan_sectorial"/>
+		</field>
+		<field name="meta" class="java.lang.String">
+			<property name="com.jaspersoft.studio.field.name" value="meta"/>
+			<property name="com.jaspersoft.studio.field.label" value="meta"/>
+			<property name="com.jaspersoft.studio.field.tree.path" value="vw_visor_plan_sectorial"/>
+		</field>
+		<field name="valormeta" class="java.math.BigDecimal">
+			<property name="com.jaspersoft.studio.field.name" value="valormeta"/>
+			<property name="com.jaspersoft.studio.field.label" value="valormeta"/>
+			<property name="com.jaspersoft.studio.field.tree.path" value="vw_visor_plan_sectorial"/>
+		</field>
+		<field name="valorresultado" class="java.math.BigDecimal">
+			<property name="com.jaspersoft.studio.field.name" value="valorresultado"/>
+			<property name="com.jaspersoft.studio.field.label" value="valorresultado"/>
+			<property name="com.jaspersoft.studio.field.tree.path" value="vw_visor_plan_sectorial"/>
+		</field>
+		<field name="codigoentidad" class="java.lang.Long">
+			<property name="com.jaspersoft.studio.field.name" value="codigoentidad"/>
+			<property name="com.jaspersoft.studio.field.label" value="codigoentidad"/>
+			<property name="com.jaspersoft.studio.field.tree.path" value="vw_visor_plan_sectorial"/>
+		</field>
+		<field name="entidad" class="java.lang.String">
+			<property name="com.jaspersoft.studio.field.name" value="entidad"/>
+			<property name="com.jaspersoft.studio.field.label" value="entidad"/>
+		</field>
+	</subDataset>
+	<subDataset name="ds_institucional" uuid="8fecaccf-5977-4798-844f-f513e672d0ef">
+		<property name="com.jaspersoft.studio.data.sql.tables" value=""/>
+		<property name="com.jaspersoft.studio.data.defaultdataadapter" value="SIPeIP"/>
+		<parameter name="ANIO" class="java.lang.Integer"/>
+		<parameter name="META_CODIGO" class="java.lang.Integer"/>
+		<parameter name="ENTIDAD_CODIGO" class="java.lang.Long"/>
+		<queryString language="SQL">
+			<![CDATA[select vpi.*,
+(select e.ent_nombre  from "admin".entidad e where e.ent_codigo = vpi.codigoentidad) as entidad
+from planificacion.vw_visor_plan_institucional vpi
+where (vpi.codigoentidad in (
+            select
+                proyecto2_.ent_codigo 
+            from
+                inversion.proyecto_alineacion_pnd proyectoal1_ cross 
+            join
+                inversion.proyecto proyecto2_ cross 
+            join
+                admin.entidad entidad3_ 
+            where
+                proyectoal1_.pry_codigo=proyecto2_.pry_codigo 
+                and proyecto2_.ent_codigo=entidad3_.ent_codigo 
+                and proyectoal1_.pndm_codigo= $P{META_CODIGO}
+        ) 
+        or vpi.codigoentidad =(
+            select
+                pndmeta4_.entd_responsable 
+            from
+                planificacion.pnd_meta pndmeta4_ cross 
+            join
+                admin.entidad entidad5_ 
+            where
+                (
+                    pndmeta4_.pndm_activo = true
+                ) 
+                and pndmeta4_.entd_responsable=entidad5_.ent_codigo 
+                and pndmeta4_.pndm_codigo=$P{META_CODIGO}
+        )
+)
+and vpi.codigoentidad = $P{ENTIDAD_CODIGO} 
+order by codigoentidad]]>
+		</queryString>
+		<field name="codigo" class="java.lang.Long">
+			<property name="com.jaspersoft.studio.field.name" value="codigo"/>
+			<property name="com.jaspersoft.studio.field.label" value="codigo"/>
+			<property name="com.jaspersoft.studio.field.tree.path" value="vw_visor_plan_institucional"/>
+		</field>
+		<field name="codigoindicador" class="java.lang.Long">
+			<property name="com.jaspersoft.studio.field.name" value="codigoindicador"/>
+			<property name="com.jaspersoft.studio.field.label" value="codigoindicador"/>
+			<property name="com.jaspersoft.studio.field.tree.path" value="vw_visor_plan_institucional"/>
+		</field>
+		<field name="codigoentidad" class="java.lang.Long">
+			<property name="com.jaspersoft.studio.field.name" value="codigoentidad"/>
+			<property name="com.jaspersoft.studio.field.label" value="codigoentidad"/>
+			<property name="com.jaspersoft.studio.field.tree.path" value="vw_visor_plan_institucional"/>
+		</field>
+		<field name="objetivo" class="java.lang.String">
+			<property name="com.jaspersoft.studio.field.name" value="objetivo"/>
+			<property name="com.jaspersoft.studio.field.label" value="objetivo"/>
+			<property name="com.jaspersoft.studio.field.tree.path" value="vw_visor_plan_institucional"/>
+		</field>
+		<field name="anio" class="java.lang.Integer">
+			<property name="com.jaspersoft.studio.field.name" value="anio"/>
+			<property name="com.jaspersoft.studio.field.label" value="anio"/>
+			<property name="com.jaspersoft.studio.field.tree.path" value="vw_visor_plan_institucional"/>
+		</field>
+		<field name="periodo" class="java.lang.String">
+			<property name="com.jaspersoft.studio.field.name" value="periodo"/>
+			<property name="com.jaspersoft.studio.field.label" value="periodo"/>
+			<property name="com.jaspersoft.studio.field.tree.path" value="vw_visor_plan_institucional"/>
+		</field>
+		<field name="indicador" class="java.lang.String">
+			<property name="com.jaspersoft.studio.field.name" value="indicador"/>
+			<property name="com.jaspersoft.studio.field.label" value="indicador"/>
+			<property name="com.jaspersoft.studio.field.tree.path" value="vw_visor_plan_institucional"/>
+		</field>
+		<field name="meta" class="java.lang.String">
+			<property name="com.jaspersoft.studio.field.name" value="meta"/>
+			<property name="com.jaspersoft.studio.field.label" value="meta"/>
+			<property name="com.jaspersoft.studio.field.tree.path" value="vw_visor_plan_institucional"/>
+		</field>
+		<field name="valormeta" class="java.math.BigDecimal">
+			<property name="com.jaspersoft.studio.field.name" value="valormeta"/>
+			<property name="com.jaspersoft.studio.field.label" value="valormeta"/>
+			<property name="com.jaspersoft.studio.field.tree.path" value="vw_visor_plan_institucional"/>
+		</field>
+		<field name="valorresultado" class="java.math.BigDecimal">
+			<property name="com.jaspersoft.studio.field.name" value="valorresultado"/>
+			<property name="com.jaspersoft.studio.field.label" value="valorresultado"/>
+			<property name="com.jaspersoft.studio.field.tree.path" value="vw_visor_plan_institucional"/>
+		</field>
+		<field name="ordenperiodo" class="java.lang.Integer">
+			<property name="com.jaspersoft.studio.field.name" value="ordenperiodo"/>
+			<property name="com.jaspersoft.studio.field.label" value="ordenperiodo"/>
+			<property name="com.jaspersoft.studio.field.tree.path" value="vw_visor_plan_institucional"/>
+		</field>
+		<field name="entidad" class="java.lang.String">
+			<property name="com.jaspersoft.studio.field.name" value="entidad"/>
+			<property name="com.jaspersoft.studio.field.label" value="entidad"/>
+		</field>
+	</subDataset>
+	<parameter name="META_CODIGO" class="java.lang.Integer">
+		<defaultValueExpression><![CDATA[139]]></defaultValueExpression>
+	</parameter>
+	<parameter name="ANIO" class="java.lang.Integer">
+		<defaultValueExpression><![CDATA[2023]]></defaultValueExpression>
+	</parameter>
+	<parameter name="ENTIDAD_CODIGO" class="java.lang.Integer">
+		<defaultValueExpression><![CDATA[0]]></defaultValueExpression>
+	</parameter>
+	<queryString language="SQL">
+		<![CDATA[SELECT ent_codigo as entidad_codigo,
+ent_nombre as entidad
+FROM admin.entidad e
+WHERE  
+($P{ENTIDAD_CODIGO} = 0 and (e.ent_codigo IN (
+    SELECT p.ent_codigo
+    FROM inversion.proyecto_alineacion_pnd ap
+    join inversion.proyecto p on ap.pry_codigo = p.pry_codigo 
+    WHERE ap.pndm_codigo = $P{META_CODIGO} 
+) OR e.ent_codigo  = (
+    SELECT pm.entd_responsable
+    FROM planificacion.pnd_meta pm
+    WHERE pm.pndm_codigo = $P{META_CODIGO} ))) or (e.ent_codigo <> 0 and e.ent_codigo = $P{ENTIDAD_CODIGO} )]]>
+	</queryString>
+	<field name="entidad_codigo" class="java.lang.Long">
+		<property name="com.jaspersoft.studio.field.name" value="entidad_codigo"/>
+		<property name="com.jaspersoft.studio.field.label" value="entidad_codigo"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="entidad"/>
+	</field>
+	<field name="entidad" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.name" value="entidad"/>
+		<property name="com.jaspersoft.studio.field.label" value="entidad"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="entidad"/>
+	</field>
+	<background>
+		<band splitType="Stretch"/>
+	</background>
+	<detail>
+		<band height="80" splitType="Stretch">
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+			<textField>
+				<reportElement x="0" y="0" width="540" height="20" uuid="15666da4-7666-4a7e-937c-692ac0356098">
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<textElement verticalAlignment="Middle">
+					<font size="12" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA["Plan Sectorial de "+$F{entidad}]]></textFieldExpression>
+			</textField>
+			<componentElement>
+				<reportElement x="0" y="20" width="540" height="60" uuid="b6511d44-39de-41ba-9fa6-86f1b1af7ff1">
+					<property name="com.jaspersoft.studio.layout" value="com.jaspersoft.studio.editor.layout.VerticalRowLayout"/>
+					<property name="com.jaspersoft.studio.table.style.table_header" value="Table 2_TH"/>
+					<property name="com.jaspersoft.studio.table.style.column_header" value="Table 2_CH"/>
+					<property name="com.jaspersoft.studio.table.style.detail" value="Table 2_TD"/>
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<jr:table xmlns:jr="http://jasperreports.sourceforge.net/jasperreports/components" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports/components http://jasperreports.sourceforge.net/xsd/components.xsd">
+					<datasetRun subDataset="ds_sectorial" uuid="1a7af2d6-9c01-48ed-9cee-81adcdb2bb31">
+						<datasetParameter name="ENTIDAD_CODIGO">
+							<datasetParameterExpression><![CDATA[$F{entidad_codigo}]]></datasetParameterExpression>
+						</datasetParameter>
+						<datasetParameter name="META_CODIGO">
+							<datasetParameterExpression><![CDATA[$P{META_CODIGO}]]></datasetParameterExpression>
+						</datasetParameter>
+						<connectionExpression><![CDATA[$P{REPORT_CONNECTION}]]></connectionExpression>
+					</datasetRun>
+					<jr:column width="135" uuid="28fa85ce-27bc-421c-bcd0-533f8578c06a">
+						<jr:columnHeader style="Table 2_CH" height="30">
+							<property name="com.jaspersoft.studio.unit.width" value="px"/>
+							<staticText>
+								<reportElement x="0" y="0" width="135" height="30" uuid="172e58a9-76ba-40de-9e37-20363b7867cd"/>
+								<textElement textAlignment="Center" verticalAlignment="Middle">
+									<font isBold="true"/>
+								</textElement>
+								<text><![CDATA[Objetivo]]></text>
+							</staticText>
+						</jr:columnHeader>
+						<jr:detailCell style="Table 2_TD" height="30">
+							<textField>
+								<reportElement x="0" y="0" width="135" height="30" uuid="bc0b2315-abd8-48a8-8bbb-09ec5d5c1baf"/>
+								<textElement textAlignment="Center" verticalAlignment="Middle"/>
+								<textFieldExpression><![CDATA[$F{objetivo}]]></textFieldExpression>
+							</textField>
+						</jr:detailCell>
+					</jr:column>
+					<jr:column width="135" uuid="880e07a5-f357-46b8-9b5b-5d886806b4d8">
+						<jr:columnHeader style="Table 2_CH" height="30">
+							<staticText>
+								<reportElement x="0" y="0" width="135" height="30" uuid="3a9251eb-1dbf-4ba7-b788-395723cdbf3b"/>
+								<textElement textAlignment="Center" verticalAlignment="Middle">
+									<font isBold="true"/>
+								</textElement>
+								<text><![CDATA[Año]]></text>
+							</staticText>
+						</jr:columnHeader>
+						<jr:detailCell style="Table 2_TD" height="30">
+							<textField>
+								<reportElement x="0" y="0" width="135" height="30" uuid="2e66da45-79da-4e95-ae94-bc6b8f039255"/>
+								<textElement textAlignment="Center" verticalAlignment="Middle"/>
+								<textFieldExpression><![CDATA[$F{periodo}]]></textFieldExpression>
+							</textField>
+						</jr:detailCell>
+					</jr:column>
+					<jr:column width="135" uuid="a75228cd-8935-45fb-919e-b5ece6249332">
+						<jr:columnHeader style="Table 2_CH" height="30">
+							<staticText>
+								<reportElement x="0" y="0" width="135" height="30" uuid="b3ca6341-2277-4ce6-a8dc-ab83cdd75e24"/>
+								<textElement textAlignment="Center" verticalAlignment="Middle">
+									<font isBold="true"/>
+								</textElement>
+								<text><![CDATA[Meta]]></text>
+							</staticText>
+						</jr:columnHeader>
+						<jr:detailCell style="Table 2_TD" height="30">
+							<textField>
+								<reportElement x="0" y="0" width="135" height="30" uuid="6bb3f271-79e8-4d60-a74c-dcc868f326a7"/>
+								<textElement textAlignment="Center" verticalAlignment="Middle"/>
+								<textFieldExpression><![CDATA[$F{valormeta}]]></textFieldExpression>
+							</textField>
+						</jr:detailCell>
+					</jr:column>
+					<jr:column width="135" uuid="2c0841ce-e076-4891-8edd-84d371f8f97d">
+						<jr:columnHeader style="Table 2_CH" height="30">
+							<staticText>
+								<reportElement x="0" y="0" width="135" height="30" uuid="1f9737e6-0386-4d93-a285-163784ffa7ad"/>
+								<textElement textAlignment="Center" verticalAlignment="Middle">
+									<font isBold="true"/>
+								</textElement>
+								<text><![CDATA[Resultado]]></text>
+							</staticText>
+						</jr:columnHeader>
+						<jr:detailCell style="Table 2_TD" height="30">
+							<textField>
+								<reportElement x="0" y="0" width="135" height="30" uuid="e9d32213-08cf-403e-afc7-7b3eedca94d8"/>
+								<textElement textAlignment="Center" verticalAlignment="Middle"/>
+								<textFieldExpression><![CDATA[$F{valorresultado}]]></textFieldExpression>
+							</textField>
+						</jr:detailCell>
+					</jr:column>
+				</jr:table>
+			</componentElement>
+		</band>
+		<band height="80">
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+			<textField>
+				<reportElement x="0" y="0" width="540" height="20" uuid="90da6afb-21e1-408e-95a8-b8f5477b3857">
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<textElement verticalAlignment="Middle">
+					<font size="12" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA["Plan Institucional de "+$F{entidad}]]></textFieldExpression>
+			</textField>
+			<componentElement>
+				<reportElement x="0" y="20" width="540" height="60" uuid="e7fcad21-b127-42ae-bddf-c8a62c432eda">
+					<property name="com.jaspersoft.studio.layout" value="com.jaspersoft.studio.editor.layout.VerticalRowLayout"/>
+					<property name="com.jaspersoft.studio.table.style.table_header" value="Table 3_TH"/>
+					<property name="com.jaspersoft.studio.table.style.column_header" value="Table 3_CH"/>
+					<property name="com.jaspersoft.studio.table.style.detail" value="Table 3_TD"/>
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<jr:table xmlns:jr="http://jasperreports.sourceforge.net/jasperreports/components" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports/components http://jasperreports.sourceforge.net/xsd/components.xsd">
+					<datasetRun subDataset="ds_institucional" uuid="7856e938-7e96-4123-91c7-5065f8708633">
+						<datasetParameter name="ANIO">
+							<datasetParameterExpression><![CDATA[$P{ANIO}]]></datasetParameterExpression>
+						</datasetParameter>
+						<datasetParameter name="ENTIDAD_CODIGO">
+							<datasetParameterExpression><![CDATA[$F{entidad_codigo}]]></datasetParameterExpression>
+						</datasetParameter>
+						<datasetParameter name="META_CODIGO">
+							<datasetParameterExpression><![CDATA[$P{META_CODIGO}]]></datasetParameterExpression>
+						</datasetParameter>
+						<connectionExpression><![CDATA[$P{REPORT_CONNECTION}]]></connectionExpression>
+					</datasetRun>
+					<jr:column width="108" uuid="7a83ff58-06f8-42c8-836e-3f62ee612ac6">
+						<jr:columnHeader style="Table 3_CH" height="30">
+							<property name="com.jaspersoft.studio.unit.width" value="px"/>
+							<staticText>
+								<reportElement x="0" y="0" width="108" height="30" uuid="4ebeadcd-7831-49b4-8240-4fb5931195ec"/>
+								<textElement textAlignment="Center" verticalAlignment="Middle">
+									<font isBold="true"/>
+								</textElement>
+								<text><![CDATA[Objetivo Estratégico Institucional]]></text>
+							</staticText>
+						</jr:columnHeader>
+						<jr:detailCell style="Table 3_TD" height="30">
+							<textField>
+								<reportElement x="0" y="0" width="108" height="30" uuid="86c2e255-750b-47a4-8b3a-fd675a0c412e"/>
+								<textElement textAlignment="Center" verticalAlignment="Middle"/>
+								<textFieldExpression><![CDATA[$F{objetivo}]]></textFieldExpression>
+							</textField>
+						</jr:detailCell>
+					</jr:column>
+					<jr:column width="108" uuid="d510f26c-ee12-46c0-9479-364c86b2449e">
+						<jr:columnHeader style="Table 3_CH" height="30">
+							<staticText>
+								<reportElement x="0" y="0" width="108" height="30" uuid="5b68c1d1-ee55-4d47-a8d0-697d29425dbd"/>
+								<textElement textAlignment="Center" verticalAlignment="Middle">
+									<font isBold="true"/>
+								</textElement>
+								<text><![CDATA[Año]]></text>
+							</staticText>
+						</jr:columnHeader>
+						<jr:detailCell style="Table 3_TD" height="30">
+							<textField>
+								<reportElement x="0" y="0" width="108" height="30" uuid="a4582349-8cf4-4339-a38f-33b36266ea11"/>
+								<textElement textAlignment="Center" verticalAlignment="Middle"/>
+								<textFieldExpression><![CDATA[$F{anio}]]></textFieldExpression>
+							</textField>
+						</jr:detailCell>
+					</jr:column>
+					<jr:column width="108" uuid="983f894f-8b54-49c9-ae89-0b9450c635a8">
+						<jr:columnHeader style="Table 3_CH" height="30">
+							<staticText>
+								<reportElement x="0" y="0" width="108" height="30" uuid="499ca4c3-896d-4062-9bf3-c3e672f10c64"/>
+								<textElement textAlignment="Center" verticalAlignment="Middle">
+									<font isBold="true"/>
+								</textElement>
+								<text><![CDATA[Periodo]]></text>
+							</staticText>
+						</jr:columnHeader>
+						<jr:detailCell style="Table 3_TD" height="30">
+							<textField>
+								<reportElement x="0" y="0" width="108" height="30" uuid="e9141c89-7c9c-4f85-bdc3-5e3d8f42c308"/>
+								<textElement textAlignment="Center" verticalAlignment="Middle"/>
+								<textFieldExpression><![CDATA[$F{periodo}.replaceAll("\\d+\\.\\s*", "")]]></textFieldExpression>
+							</textField>
+						</jr:detailCell>
+					</jr:column>
+					<jr:column width="108" uuid="9467df70-b30e-4025-be52-be3cc0fefb17">
+						<jr:columnHeader style="Table 3_CH" height="30">
+							<staticText>
+								<reportElement x="0" y="0" width="108" height="30" uuid="f9bb5a0d-f57f-4282-9fc6-ce8acba663c8"/>
+								<textElement textAlignment="Center" verticalAlignment="Middle">
+									<font isBold="true"/>
+								</textElement>
+								<text><![CDATA[Meta]]></text>
+							</staticText>
+						</jr:columnHeader>
+						<jr:detailCell style="Table 3_TD" height="30">
+							<textField>
+								<reportElement x="0" y="0" width="108" height="30" uuid="eb992144-3d64-4e65-a93b-09c7698a564e"/>
+								<textElement textAlignment="Center" verticalAlignment="Middle"/>
+								<textFieldExpression><![CDATA[$F{valormeta}]]></textFieldExpression>
+							</textField>
+						</jr:detailCell>
+					</jr:column>
+					<jr:column width="108" uuid="058a5dbe-4dd4-45d1-9d2e-2eea23efd05c">
+						<jr:columnHeader style="Table 3_CH" height="30">
+							<staticText>
+								<reportElement x="0" y="0" width="108" height="30" uuid="1a58adc4-70b2-44d3-adc7-3f80e43bf401"/>
+								<textElement textAlignment="Center" verticalAlignment="Middle">
+									<font isBold="true"/>
+								</textElement>
+								<text><![CDATA[Resultado]]></text>
+							</staticText>
+						</jr:columnHeader>
+						<jr:detailCell style="Table 3_TD" height="30">
+							<textField>
+								<reportElement x="0" y="0" width="108" height="30" uuid="9c14f983-4c78-46e6-8591-5a93362a7507"/>
+								<textElement textAlignment="Center" verticalAlignment="Middle"/>
+								<textFieldExpression><![CDATA[$F{valorresultado}]]></textFieldExpression>
+							</textField>
+						</jr:detailCell>
+					</jr:column>
+				</jr:table>
+			</componentElement>
+		</band>
+		<band height="80">
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+			<textField>
+				<reportElement x="0" y="0" width="540" height="20" uuid="c009250d-10dc-46c7-a769-eaf413f33e4a">
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+				</reportElement>
+				<textElement verticalAlignment="Middle">
+					<font size="12" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA["Proyectos de inversión de "+$F{entidad}]]></textFieldExpression>
+			</textField>
+			<componentElement>
+				<reportElement x="0" y="20" width="540" height="60" uuid="ebff3c83-9a22-49f6-8e74-b01077b328d4">
+					<property name="com.jaspersoft.studio.layout" value="com.jaspersoft.studio.editor.layout.VerticalRowLayout"/>
+					<property name="com.jaspersoft.studio.table.style.table_header" value="Table 1_TH"/>
+					<property name="com.jaspersoft.studio.table.style.column_header" value="Table 1_CH"/>
+					<property name="com.jaspersoft.studio.table.style.detail" value="Table 1_TD"/>
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+				</reportElement>
+				<jr:table xmlns:jr="http://jasperreports.sourceforge.net/jasperreports/components" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports/components http://jasperreports.sourceforge.net/xsd/components.xsd">
+					<datasetRun subDataset="ds_proyecto" uuid="dfbfd9b3-44ab-4527-aa3c-cce9d3ad38ff">
+						<datasetParameter name="ANIO">
+							<datasetParameterExpression><![CDATA[$P{ANIO}]]></datasetParameterExpression>
+						</datasetParameter>
+						<datasetParameter name="ENTIDAD_CODIGO">
+							<datasetParameterExpression><![CDATA[$F{entidad_codigo}]]></datasetParameterExpression>
+						</datasetParameter>
+						<datasetParameter name="META_CODIGO">
+							<datasetParameterExpression><![CDATA[$P{META_CODIGO}]]></datasetParameterExpression>
+						</datasetParameter>
+						<connectionExpression><![CDATA[$P{REPORT_CONNECTION}]]></connectionExpression>
+					</datasetRun>
+					<jr:column width="90" uuid="42438f9a-7551-4048-9dfc-da8a99459700">
+						<jr:columnHeader style="Table 1_CH" height="30">
+							<property name="com.jaspersoft.studio.unit.width" value="px"/>
+							<staticText>
+								<reportElement x="0" y="0" width="90" height="30" uuid="19a72e94-22e0-4a85-a94c-1ce405ea8d1d"/>
+								<textElement textAlignment="Center" verticalAlignment="Middle">
+									<font isBold="true"/>
+								</textElement>
+								<text><![CDATA[Cup]]></text>
+							</staticText>
+						</jr:columnHeader>
+						<jr:detailCell style="Table 1_TD" height="30">
+							<textField>
+								<reportElement x="0" y="0" width="90" height="30" uuid="cc2812d4-4d0d-49ec-83cb-e54a95e7456e"/>
+								<textElement textAlignment="Center" verticalAlignment="Middle"/>
+								<textFieldExpression><![CDATA[$F{cup}]]></textFieldExpression>
+							</textField>
+						</jr:detailCell>
+					</jr:column>
+					<jr:column width="90" uuid="4d37733a-6ac6-45e1-8273-57dd309eae64">
+						<jr:columnHeader style="Table 1_CH" height="30">
+							<staticText>
+								<reportElement x="0" y="0" width="90" height="30" uuid="21ebba2b-409b-49fb-912e-61767fa560f7"/>
+								<textElement textAlignment="Center" verticalAlignment="Middle">
+									<font isBold="true"/>
+								</textElement>
+								<text><![CDATA[Proyecto]]></text>
+							</staticText>
+						</jr:columnHeader>
+						<jr:detailCell style="Table 1_TD" height="30">
+							<textField>
+								<reportElement x="0" y="0" width="90" height="30" uuid="24b7023c-ea7e-4638-a560-856fbdbcd90d"/>
+								<textElement textAlignment="Center" verticalAlignment="Middle"/>
+								<textFieldExpression><![CDATA[$F{nombre}]]></textFieldExpression>
+							</textField>
+						</jr:detailCell>
+					</jr:column>
+					<jr:column width="90" uuid="d0c8448b-74a2-4c9e-9f37-55cff1191c48">
+						<jr:columnHeader style="Table 1_CH" height="30">
+							<staticText>
+								<reportElement x="0" y="0" width="90" height="30" uuid="9df89ecd-48a0-456f-8352-e531e47b7793"/>
+								<textElement textAlignment="Center" verticalAlignment="Middle">
+									<font isBold="true"/>
+								</textElement>
+								<text><![CDATA[Monto codificado]]></text>
+							</staticText>
+						</jr:columnHeader>
+						<jr:detailCell style="Table 1_TD" height="30">
+							<textField>
+								<reportElement x="0" y="0" width="90" height="30" uuid="e25173eb-5db3-4b04-8f07-1e6688ece4c0"/>
+								<textElement textAlignment="Center" verticalAlignment="Middle"/>
+								<textFieldExpression><![CDATA[$F{codificado}]]></textFieldExpression>
+							</textField>
+						</jr:detailCell>
+					</jr:column>
+					<jr:column width="90" uuid="e0868e63-431c-4cdc-b810-d9f6c00d24ed">
+						<jr:columnHeader style="Table 1_CH" height="30">
+							<staticText>
+								<reportElement x="0" y="0" width="90" height="30" uuid="1bcb4b13-5d6a-4f8f-936e-f6fe23acbdcb"/>
+								<textElement textAlignment="Center" verticalAlignment="Middle">
+									<font isBold="true"/>
+								</textElement>
+								<text><![CDATA[Año]]></text>
+							</staticText>
+						</jr:columnHeader>
+						<jr:detailCell style="Table 1_TD" height="30">
+							<textField>
+								<reportElement x="0" y="0" width="90" height="30" uuid="68f44ba8-2bb5-48ff-937c-b7f67d61d429"/>
+								<textElement textAlignment="Center" verticalAlignment="Middle"/>
+								<textFieldExpression><![CDATA[$F{anio_proyecto}]]></textFieldExpression>
+							</textField>
+						</jr:detailCell>
+					</jr:column>
+					<jr:column width="90" uuid="09ba7bee-5e3e-4684-a304-34b6919d6583">
+						<jr:columnHeader style="Table 1_CH" height="30">
+							<staticText>
+								<reportElement x="0" y="0" width="90" height="30" uuid="84f1d9a2-382f-4b5f-965e-e4ff24c09fdf"/>
+								<textElement textAlignment="Center" verticalAlignment="Middle">
+									<font isBold="true"/>
+								</textElement>
+								<text><![CDATA[Monto devengado]]></text>
+							</staticText>
+						</jr:columnHeader>
+						<jr:detailCell style="Table 1_TD" height="30">
+							<textField>
+								<reportElement x="0" y="0" width="90" height="30" uuid="d88ca28d-31b2-4bd8-ad9a-444ecc95bcbf"/>
+								<textElement textAlignment="Center" verticalAlignment="Middle"/>
+								<textFieldExpression><![CDATA[$F{devengado}]]></textFieldExpression>
+							</textField>
+						</jr:detailCell>
+					</jr:column>
+					<jr:column width="90" uuid="bf39953f-0557-4d5a-9902-7cacc5552685">
+						<jr:columnHeader style="Table 1_CH" height="30">
+							<staticText>
+								<reportElement x="0" y="0" width="90" height="30" uuid="489f071e-f762-475a-a408-837c8f10a3ac"/>
+								<textElement textAlignment="Center" verticalAlignment="Middle">
+									<font isBold="true"/>
+								</textElement>
+								<text><![CDATA[Detalle]]></text>
+							</staticText>
+						</jr:columnHeader>
+						<jr:detailCell style="Table 1_TD" height="30">
+							<textField>
+								<reportElement x="0" y="0" width="90" height="30" uuid="09e77e9e-688d-4784-9edd-3d5e052982c2"/>
+								<textElement textAlignment="Center" verticalAlignment="Middle"/>
+								<textFieldExpression><![CDATA[$F{etapa_proyecto}]]></textFieldExpression>
+							</textField>
+						</jr:detailCell>
+					</jr:column>
+				</jr:table>
+			</componentElement>
+		</band>
+		<band height="80">
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+			<textField>
+				<reportElement x="0" y="0" width="540" height="20" uuid="4d4e446b-6daf-49c8-a542-7995484b8555">
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<textElement verticalAlignment="Middle">
+					<font size="12" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA["Obras de "+$F{entidad}]]></textFieldExpression>
+			</textField>
+			<componentElement>
+				<reportElement x="0" y="20" width="540" height="60" uuid="1361088f-bd1b-4a53-bd93-e41054d9182c">
+					<property name="com.jaspersoft.studio.layout" value="com.jaspersoft.studio.editor.layout.VerticalRowLayout"/>
+					<property name="com.jaspersoft.studio.table.style.table_header" value="Table_TH"/>
+					<property name="com.jaspersoft.studio.table.style.column_header" value="Table_CH"/>
+					<property name="com.jaspersoft.studio.table.style.detail" value="Table_TD"/>
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<jr:table xmlns:jr="http://jasperreports.sourceforge.net/jasperreports/components" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports/components http://jasperreports.sourceforge.net/xsd/components.xsd">
+					<datasetRun subDataset="ds_obra" uuid="3d1a5d72-8ad2-4775-96a5-eb4831408ad5">
+						<datasetParameter name="META_CODIGO">
+							<datasetParameterExpression><![CDATA[$P{META_CODIGO}]]></datasetParameterExpression>
+						</datasetParameter>
+						<datasetParameter name="ENTIDAD_CODIGO">
+							<datasetParameterExpression><![CDATA[$F{entidad_codigo}]]></datasetParameterExpression>
+						</datasetParameter>
+						<connectionExpression><![CDATA[$P{REPORT_CONNECTION}]]></connectionExpression>
+					</datasetRun>
+					<jr:column width="135" uuid="997a1e86-c0a9-4af9-aa8e-a106712397db">
+						<jr:columnHeader style="Table_CH" height="30">
+							<property name="com.jaspersoft.studio.unit.width" value="px"/>
+							<staticText>
+								<reportElement x="0" y="0" width="135" height="30" uuid="cd1a33e0-7afa-49f5-a6f9-6138d46b80e2"/>
+								<textElement textAlignment="Center" verticalAlignment="Middle">
+									<font isBold="true"/>
+								</textElement>
+								<text><![CDATA[Entidad ejecutora]]></text>
+							</staticText>
+						</jr:columnHeader>
+						<jr:detailCell style="Table_TD" height="30">
+							<textField>
+								<reportElement x="0" y="0" width="135" height="30" uuid="d011fe9d-c845-4cc7-9795-0e4b5bf054a4"/>
+								<textElement textAlignment="Center" verticalAlignment="Middle"/>
+								<textFieldExpression><![CDATA[$F{ejecutora}]]></textFieldExpression>
+							</textField>
+						</jr:detailCell>
+					</jr:column>
+					<jr:column width="135" uuid="79eb0242-5c8f-4bdf-a0cc-e23ca9cc8e28">
+						<jr:columnHeader style="Table_CH" height="30">
+							<staticText>
+								<reportElement x="0" y="0" width="135" height="30" uuid="8289de76-2cfd-49dd-afad-dbd209d8dad7"/>
+								<textElement textAlignment="Center" verticalAlignment="Middle">
+									<font isBold="true"/>
+								</textElement>
+								<text><![CDATA[Obra]]></text>
+							</staticText>
+						</jr:columnHeader>
+						<jr:detailCell style="Table_TD" height="30">
+							<textField>
+								<reportElement x="0" y="0" width="135" height="30" uuid="f7a3a8f2-a2c9-4ff4-b35c-b28711775857"/>
+								<textElement textAlignment="Center" verticalAlignment="Middle"/>
+								<textFieldExpression><![CDATA[$F{nombre}]]></textFieldExpression>
+							</textField>
+						</jr:detailCell>
+					</jr:column>
+					<jr:column width="135" uuid="35379e6e-1d16-46f5-b940-ec8fe7d54471">
+						<jr:columnHeader style="Table_CH" height="30">
+							<staticText>
+								<reportElement x="0" y="0" width="135" height="30" uuid="b36f89d6-18a9-40d1-8f07-5596f5d9d66c"/>
+								<textElement textAlignment="Center" verticalAlignment="Middle">
+									<font isBold="true"/>
+								</textElement>
+								<text><![CDATA[Monto]]></text>
+							</staticText>
+						</jr:columnHeader>
+						<jr:detailCell style="Table_TD" height="30">
+							<textField>
+								<reportElement x="0" y="0" width="135" height="30" uuid="91e8c199-6b21-4d69-a068-a01053166bb8"/>
+								<textElement textAlignment="Center" verticalAlignment="Middle"/>
+								<textFieldExpression><![CDATA[$F{montototal}]]></textFieldExpression>
+							</textField>
+						</jr:detailCell>
+					</jr:column>
+					<jr:column width="135" uuid="ddce550d-4165-484b-afb9-f52abd48c238">
+						<jr:columnHeader style="Table_CH" height="30">
+							<staticText>
+								<reportElement x="0" y="0" width="135" height="30" uuid="c9ac05b0-336b-4599-ac3e-c7a65fc65bdc"/>
+								<textElement textAlignment="Center" verticalAlignment="Middle">
+									<font isBold="true"/>
+								</textElement>
+								<text><![CDATA[Porcentaje de avance]]></text>
+							</staticText>
+						</jr:columnHeader>
+						<jr:detailCell style="Table_TD" height="30">
+							<textField>
+								<reportElement x="0" y="0" width="135" height="30" uuid="d2060559-310a-4ce8-9d9f-c1556c747836"/>
+								<textElement textAlignment="Center" verticalAlignment="Middle"/>
+								<textFieldExpression><![CDATA[$F{porcentaje}.intValue()]]></textFieldExpression>
+							</textField>
+						</jr:detailCell>
+					</jr:column>
+				</jr:table>
+			</componentElement>
+		</band>
+	</detail>
+</jasperReport>
